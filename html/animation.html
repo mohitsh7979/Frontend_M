@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+
+            /* border: 2px solid black; */
+            height: 200px;
+            width: 200px;
+            animation-name: mohit;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            position: relative;
+        }
+
+        @keyframes mohit {
+
+          /*  from{
+                width: 0px;
+                height: 0px;
+                background-color: red;
+                border-radius: 0px;
+                left: 0px;
+
+            }
+
+            to{
+            
+                width: 700px;
+                height: 400px;
+                background-color: yellow;
+                border-radius: 500px;
+                left: 500px;
+            } /*/ 
+
+            0%{
+               
+                left: 0px;
+                top: 0px;
+                background-color: black;
+                border-radius: 0px;
+            }
+
+            25%{
+
+                left: 300px;
+                top: 0px;
+                background-color: yellow;
+                border-radius: 20px;
+                box-shadow: 0px 0px 20px blue;
+            }
+
+            50%{
+
+                left: 300px;
+                top: 300px;
+                background-color: orangered;
+                border-radius: 0px;
+                box-shadow: 0px 0px 20px green;
+            }
+
+            75%{
+               
+                top: 300px;
+                left: 0px;
+                background-color: blue;
+                border-radius: 20px;
+                box-shadow: 0px 0px 20px pink;
+            }
+
+            100%{
+
+                top: 0px;
+                left: 0px;
+                background-color: green;
+                border-radius: 0px;
+                box-shadow: 0px 0px 20px orangered;
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
