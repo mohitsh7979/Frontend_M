@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container{
+
+          display: grid;
+          height: 100vh;
+          /* min-height: 100vh; */
+          /* grid-template-columns: 300px 600px 300px 300px; */
+          /* grid-template-columns: 2fr 1fr 1fr 2fr; */
+          /* grid-template-columns: repeat(6,auto); */
+          /* grid-template-rows: 1fr 5fr 1fr; */
+          /* justify-items: center;
+          align-content: center; */
+        }
+
+        .item{
+
+            
+            /* height: 200px; */
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin: 5px;
+        }
+
+        #item-2{
+
+            display: grid;
+            /* grid-template-columns: 1fr 5fr; */
+            grid-gap: 20px;
+        }
+
+        .box{
+
+            height: 100%;
+            background-color: yellow;
+            
+        }
+
+        .inner-box{
+
+            height: 55%;
+            background-color: red;
+            margin: 5px;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
+/* 
+        #box-2{
+
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+        } */
+
+        /* .inner-box:nth-child(1){
+
+            background-color: green;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .inner-box:nth-child(3){
+
+            grid-column-start: 1;
+            grid-column-end: 3;
+        } */
+
+
+        /* @media (max-width:1396px){
+            .container{
+
+                grid-template-columns: repeat(4,auto);
+            }
+        }
+
+        @media (max-width:1000px){
+            .container{
+
+                grid-template-columns: repeat(3,auto);
+            }
+        }
+
+        @media (max-width:700px){
+            .container{
+
+                grid-template-columns: repeat(2,auto);
+            }
+        }
+
+        @media (max-width:400px){
+            .container{
+
+                grid-template-columns: repeat(1,auto);
+            }
+        } */
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <!-- <div class="item" id="item-2">
+            <div class="box"></div>
+            <div class="box" id="box-2">
+                <div class="inner-box">1</div>
+                <div class="inner-box">2</div>
+                <div class="inner-box">3</div>
+                <div class="inner-box">4</div>
+                <div class="inner-box">5</div>
+                <div class="inner-box">6</div>
+            </div>
+        </div> -->
+        <div class="item"></div>
+        <!-- <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div> -->
+    </div>
+    
+</body>
+</html>
